@@ -1,0 +1,25 @@
+Source: libtest-regexp-perl
+Section: perl
+Priority: optional
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Salvatore Bonaccorso <carnil@debian.org>
+Build-Depends: debhelper (>= 9)
+Build-Depends-Indep: perl
+Standards-Version: 4.0.0
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libtest-regexp-perl.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-perl/packages/libtest-regexp-perl.git
+Homepage: https://metacpan.org/release/Test-Regexp
+Testsuite: autopkgtest-pkg-perl
+
+Package: libtest-regexp-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends}
+Description: Perl module to test regular expressions
+ Test::Regexp is intended to test regular expressions. Given a subject
+ string and a regular expression (aka pattern), the module not only
+ tests whether the regular expression complete matches the subject
+ string, it performs a utf8::upgrade or utf8::downgrade on the subject
+ string and performs the tests again, if necessary. Furthermore, given
+ a pattern with capturing parenthesis, it checks whether all captures
+ are present, and in the right order. Both named and unnamed captures
+ are checked.

@@ -1,0 +1,24 @@
+libtest-regexp-perl (2017040101-1) unstable; urgency=medium
+
+  [ gregor herrmann ]
+  * debian/upstream/metadata: use HTTPS for GitHub URLs.
+
+  [ Salvatore Bonaccorso ]
+  * Import upstream version 2017040101
+  * Update copyright years for debian/* packaging files
+  * Declare compliance with Debian policy 4.0.0
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Mon, 19 Jun 2017 14:31:55 +0200
+
+libtest-regexp-perl (2016060501-1) unstable; urgency=medium
+
+  * Import upstream version 2016060501
+  * Drop spelling-error-in-manpage.patch patch
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sun, 05 Jun 2016 07:01:15 +0200
+
+libtest-regexp-perl (2015110201-1) unstable; urgency=low
+
+  * Initial Release. (Closes: #826143)
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Thu, 02 Jun 2016 18:24:10 +0200
